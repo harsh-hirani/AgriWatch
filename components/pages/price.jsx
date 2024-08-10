@@ -1,8 +1,15 @@
- import Header from "../header"
- const price=()=>{
+ 'use client'
+
+ import SearchComponent from "../searchcomponent"
+ const Price=()=>{
     return(
         <>
-        <Header/>
+        <div className="main">
+            <div className="price">
+            <SearchComponent/>
+            </div>
+        </div>
         </>
     )
  }
+ export default Price

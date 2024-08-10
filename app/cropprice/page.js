@@ -1,3 +1,9 @@
+import Price from "@/components/pages/price"
 export default function page(){
-    return <h1>Crop price</h1>
+    return (
+        <>
+        <Price/>
+        
+        </>
+    )
 }

@@ -7,7 +7,7 @@ export default function Card({ title, description, imgSrc }) {
 
 
             <div className="newscard">
-            <Image
+            <Image className='w-1/2'
       src="/imgs/demo.jpeg"
       width={500}
       height={500}
@@ -15,7 +15,7 @@ export default function Card({ title, description, imgSrc }) {
     />
                 <h2 className="newcard_title">Agriculture Title</h2>
                 <p className='newcard_detail'>
-                Agriculture forms the backbone of many economies, providing sustenance and livelihood to millions.ture forms the backbone of many economies, providing sustenance and livelihood to millions.ture forms the backbone of many economies, providing sustenance and livelihood to millions.ture forms the backbone of many economies, providing sustenance and livelihood to millions.ture forms the backbone of many economies, providing sustenance and livelihood to millions.</p>
+                Agriculture forms the backbone of many economies, providing sustenance and livelihood to millions.ture forms the backbone of many economies, providing sustenance and livelihood to millions.ture forms the backbone of many economies, providing sustenance and livelihood to millions.ture forms the backbone of many economies,</p>
             </div>
        
 

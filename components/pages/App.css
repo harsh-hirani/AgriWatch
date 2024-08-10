@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FDF9B2;
+
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   color: black;
-  cursor: default;
+  /* cursor: default; */
 
 }
 html{
@@ -54,11 +54,21 @@ html{
 ul{
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 li{
   list-style: none;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  transition: all 0.4s ease-in;
+}
+li:hover{
+  border: 1px solid black;
+  border-radius: 2rem;
 }
 a{
   text-decoration: none;
@@ -67,6 +77,7 @@ a{
 .header{
   width: 100vw;
   height: 7rem;
+  background-color: #F9FAFB;
   /* background-color: red; */
   display: flex;
   /* gap: 10rem; */
@@ -77,14 +88,20 @@ a{
   /* padding-left: 3rem; */
 }
 .title_and_logo img{
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   /* display: flex; */
   /* flex-direction: column; */
+  margin-right: 1rem;
 }
 .title_and_logo{
   display: flex;
   align-items: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.main{
+  background:#F9FAFB;
 }
 /* .hero{
  
@@ -103,9 +120,10 @@ a{
 
  & h1{
   font-size: 10rem;
-  color: rgb(253, 249, 178,0.4);
+  color: rgba(251, 250, 234, 0.4);
  }
 }
+
 
 /* news  */
 
@@ -130,12 +148,14 @@ a{
 
 .newscard{
   min-height: 40rem;
-  background-color: beige;
+  background-color: #F9FAFB;
   width: 30rem;
   /* border-left: 2rem; */
   border-radius: 2rem;
   border-top-left-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-top-right-radius: 1rem;
+  /* padding-right: 1rem; */
 
 
  & img{
@@ -143,6 +163,7 @@ a{
       height={500} */
       height: 20rem;
       width: 100%;
+
       border-radius: 2rem;
   border-top-left-radius: 2rem;
   border-top-right-radius: 1rem;
@@ -152,6 +173,7 @@ a{
 
  }
 }
+
 .newcard_title{
   margin-top: 3rem;
   /* margin-left: 1rem; */
@@ -167,7 +189,57 @@ a{
   padding-right: 1rem;
   padding-bottom: 2rem;
 }
-.newcard_title,.newcard_detail{
-  background-color: #fff;
-  background-color: beige;
+.price{
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  padding-top: 3rem;
+}
+.line{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5rem;
+gap: 2rem;
+}
+input{
+  width: 40rem;
+  border: 1px solid rgb(19, 18, 18);
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  padding-left: 2rem;
+}
+select{
+  height: 4rem;
+  border: 1px solid rgb(19, 18, 18,0.6);
+  width: auto;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  border-radius: 2rem;
+}
+button{
+  border: 1px solid rgb(19, 18, 18,0.6);
+  height: 4rem;
+  opacity: 0.6;
+  width: 10rem;
+  font-size: 1.2rem;
+  /* padding-left: 1rem; */
+  border-radius: 2rem;
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+button:hover{
+  border: 1px solid rgb(19, 18, 18,1);
+  opacity: 1;
+
+}
+::-webkit-input-placeholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: black;
+  opacity: 1;
+  padding-left: 3rem;
 }
