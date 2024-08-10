@@ -17,8 +17,8 @@ import { useEffect } from 'react';
         <div className="main">
 
        <div className="news">
-        {news.map((item)=>(
-            <Card title={item.title} desc={item.desc} imgSrc={item.img_url} url={item.url}/>
+        {news.map((item,i)=>(
+            <Card key={i} title={item.title} desc={item.desc} imgSrc={item.img_url} url={item.url}/>
         ))}
    
        </div>
