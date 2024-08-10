@@ -15,10 +15,10 @@ const PCard = ({ data: { state, district, market, commodity, variety, grade, mod
                 </div>
                 <div className="yo">
 
+                    <p><b>Commodity:</b>{commodity}</p>
                     <p><b>State:</b>{state}</p>
                     <p><b>District:</b>{district}</p>
                     <p><b>Market:</b>{market}</p>
-                    <p><b>Commodity:</b>{commodity}</p>
                     <p><b>Variety:</b>{variety}</p>
                     <p><b>Grade:</b>{grade}</p>
                     <p><b>Modal Price:</b>{modal_price}</p>
