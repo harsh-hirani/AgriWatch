@@ -2,6 +2,7 @@
 
 import { useRef } from 'react';
 import Head from 'next/head';
+import Script from 'next/Script';
 import './App.css'
 import { useEffect } from 'react';
 import Image from 'next/image'
@@ -29,18 +30,26 @@ function Index({ser}) {
       if (loader3Ref.current) {
         loader3Ref.current.style.top = "-100%";
       }
-    }, 1500);
-    let p = ser(52);
-    p.then(d=>console.log(d))
-
-    console.log("hi");
+    }, 1500);   
   }, []);
 
   return (
     <>
     <Head>
-        <script src="/js/home.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> 
     </Head>
+{/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></Script>
+
+<Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></Script>
+
+<Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></Script>
+
+<Script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></Script>
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> 
+
+<Script src="/js/home.js"
+  strategy="beforeInteractive"
+></Script> */}
     
     <div className="loader1" ref={loader1Ref} style={{color:"white"}}>Empower</div>
     <div className="loader2" ref={loader2Ref} style={{color:"white"}}>Inform</div>
@@ -64,16 +73,16 @@ function Index({ser}) {
       <ul>
         <li> <a href="">Home</a></li>
         <li><a href="">See prices</a></li>
-        <li><a href="">News</a></li>
+        <li><a href="app\news_page.js">News</a></li>
         <li><a href="">Help</a></li>
       </ul>
       </div>
     </div>
     <div className="hero">
       <div className="three_title">
-        <h1>Grow &nbsp; &nbsp;</h1>
-        <h1>Guide &nbsp; &nbsp; </h1>
-        <h1>Price &nbsp;</h1>
+        <h1 className='hvr'>Grow &nbsp; &nbsp;</h1>
+        <h1 className='hvr'>Guide &nbsp; &nbsp; </h1>
+        <h1 className='hvr'>Price &nbsp;</h1>
       </div>
     </div>
   </div>
