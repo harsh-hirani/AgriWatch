@@ -106,3 +106,68 @@ a{
   color: rgb(253, 249, 178,0.4);
  }
 }
+
+/* news  */
+
+.news{
+  padding-top: 5rem;
+  min-height: 100vh;
+  padding-bottom: 3rem;
+  width: 100vw;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 3rem;
+  /* column-gap: 10rem; */
+  row-gap: 7rem;
+
+}
+
+.newscard{
+  min-height: 40rem;
+  background-color: beige;
+  width: 30rem;
+  /* border-left: 2rem; */
+  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 1rem;
+
+
+ & img{
+  /* width={500}
+      height={500} */
+      height: 20rem;
+      width: 100%;
+      border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius:0.1rem ;
+  border-bottom-right-radius:0.1rem ;
+
+
+ }
+}
+.newcard_title{
+  margin-top: 3rem;
+  /* margin-left: 1rem; */
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+.newcard_detail{
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  text-align: justify;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+.newcard_title,.newcard_detail{
+  background-color: #fff;
+  background-color: beige;
+}
