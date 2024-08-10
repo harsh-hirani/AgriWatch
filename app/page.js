@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Index from "@/components/pages/index";
+import News from "@/components/pages/news";
 export default function Home() {
   const ser = async(data)=>{
     'use server'
@@ -7,7 +8,7 @@ export default function Home() {
   }
   return (
     <>
-    <Index ser={ser}/>
+    <News />
     </>
   );
 }
