@@ -1,3 +1,4 @@
+
 'use client'
 import SearchComponent from "../searchcomponent";
 import React, { useState } from 'react';
@@ -12,3 +13,4 @@ const Price=()=>{
     )
 }
 export default Price;
+

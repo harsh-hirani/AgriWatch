@@ -2,11 +2,11 @@
 
 import { useRef } from 'react';
 import Head from 'next/head';
+import Script from 'next/Script';
 import './App.css'
 import { useEffect } from 'react';
 import Header from '../header.jsx';
-import Script from 'next/script';
-// import Shery from "sheryjs"; 
+
 
 function Index({ser}) {
 
@@ -36,10 +36,6 @@ function Index({ser}) {
 
   return (
     <>
-    <Head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
-    </Head>
-   
 
     
     <div className="loader1" ref={loader1Ref} style={{color:"white"}}>Empower</div>
@@ -69,6 +65,7 @@ function Index({ser}) {
       </ul>
       </div>
     </div> */}
+
     <div className="hero">
       <div className="three_title">
         <h1 className='hvr'>Grow &nbsp; &nbsp;</h1>
