@@ -173,6 +173,7 @@ a{
 
  }
 }
+
 .newcard_title{
   margin-top: 3rem;
   /* margin-left: 1rem; */
@@ -189,6 +190,8 @@ a{
   padding-bottom: 2rem;
 }
 .newcard_title,.newcard_detail{
+
   /* background-color: #fff; */
   /* background-color: beige; */
+
 }

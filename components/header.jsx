@@ -1,3 +1,4 @@
+
 'use client'
 import Image from 'next/image'
 import "./pages/App.css"
@@ -6,21 +7,7 @@ import React, { useState } from 'react';
 const Header=()=>{
     return(
         <>
-         {/* <div className='header'>
-      <div className="title_and_logo">
-      
-        <div className="writing">
-          <h2>Agro</h2>
-          <h2>Watch</h2>
-        </div>
-      </div>
-      <div className="options">
-
-      <ul>
         
-      </ul>
-      </div>
-    </div> */}
           
 
 <nav class="bg- border-gray-200 dark:bg-gray-50">
@@ -49,6 +36,7 @@ const Header=()=>{
     </div>
   </div>
 </nav>
+
 
         </>
     )
