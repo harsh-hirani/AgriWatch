@@ -78,11 +78,8 @@ function Index({ser}) {
       </ul>
       </div>
     </div> */}
-<<<<<<< HEAD
     {/* <Header/> */}
-=======
     <Header/>
->>>>>>> f0fa1242aa6800707b67655432fdd93e46f77cdc
     <div className="hero">
       <div className="three_title">
         <h1 className='hvr'>Grow &nbsp; &nbsp;</h1>

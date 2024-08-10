@@ -8,11 +8,7 @@ export default function Home() {
   }
   return (
     <>
-<<<<<<< HEAD
     <Index />
-=======
-    <News />
->>>>>>> f0fa1242aa6800707b67655432fdd93e46f77cdc
     </>
   );
 }
