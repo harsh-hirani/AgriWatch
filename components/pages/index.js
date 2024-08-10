@@ -1,5 +1,7 @@
 'use client'
+
 import { useRef } from 'react';
+import Head from 'next/head';
 import './App.css'
 import { useEffect } from 'react';
 import Image from 'next/image'
@@ -36,6 +38,9 @@ function Index({ser}) {
 
   return (
     <>
+    <Head>
+        <script src="/js/home.js"></script>
+    </Head>
     
     <div className="loader1" ref={loader1Ref} style={{color:"white"}}>Empower</div>
     <div className="loader2" ref={loader2Ref} style={{color:"white"}}>Inform</div>
@@ -59,8 +64,8 @@ function Index({ser}) {
       <ul>
         <li> <a href="">Home</a></li>
         <li><a href="">See prices</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Help</a></li>
       </ul>
       </div>
     </div>

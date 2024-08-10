@@ -5,6 +5,7 @@
   background-color: #FDF9B2;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+  color: black;
 
 }
 html{
@@ -84,10 +85,10 @@ a{
   display: flex;
   align-items: center;
 }
-.hero{
+/* .hero{
  
-  /* background-color: red; */
-}
+  /* background-color: red; *
+} */
 .three_title{
   height: 100vh;
   width: 100vw;
