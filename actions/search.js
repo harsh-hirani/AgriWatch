@@ -5,10 +5,12 @@ async function searchAndSortByCommodity(data) {
     console.log(data)
     try {
         // Connect to MongoDB
-        await mongoose.connect("mongodb://localhost:27017/agriwatch", {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+        await mongoose.connect("mongodb+srv://pixel:sdgbfhsdgfyusdfuy@myatlasclusteredu.lwtmj66.mongodb.net/agriwatch",{useNewUrlParser:true,  useUnifiedTopology: true,});
+    
+        // await mongoose.connect("mongodb://localhost:27017/agriwatch", {
+        //     useNewUrlParser: true,
+        //     useUnifiedTopology: true,
+        // });
 
         const { commodity,district,state,o} = data;
 
