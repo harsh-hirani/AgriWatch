@@ -23,7 +23,7 @@ const Header=()=>{
         <li> <a href="/">Home</a></li>
         <li><a href="/cropprice">See prices</a></li>
         <li><a href="/news">News</a></li>
-        <li><a href="/">Help</a></li>
+        {/* <li><a href="/">Help</a></li> */}
       </ul>
       </div>
     </div>
