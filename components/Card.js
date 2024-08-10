@@ -7,11 +7,11 @@ export default function Card({ title, description, imgSrc }) {
 
 
 
-<div class="max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" style={{overflow:"hidden"}}>
     <a href="#">
     <Image
       src="/imgs/demo.jpeg"
-      width={100}
+      width={240}
       height={100}
       alt="Picture of the author"
     />
