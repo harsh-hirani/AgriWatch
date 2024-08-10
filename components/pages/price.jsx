@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 'use client'
 import SearchComponent from "../searchcomponent";
@@ -14,3 +15,13 @@ const Price=()=>{
 }
 export default Price;
 
+=======
+ import Header from "../header"
+ const price=()=>{
+    return(
+        <>
+        <Header/>
+        </>
+    )
+ }
+>>>>>>> work

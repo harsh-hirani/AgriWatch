@@ -6,7 +6,10 @@ import Script from 'next/Script';
 import './App.css'
 import { useEffect } from 'react';
 import Header from '../header.jsx';
+<<<<<<< HEAD
 
+=======
+>>>>>>> work
 
 function Index({ser}) {
 
@@ -36,7 +39,25 @@ function Index({ser}) {
 
   return (
     <>
+<<<<<<< HEAD
 
+=======
+    <Head>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> 
+    </Head>
+{/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></Script>
+
+<Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></Script>
+
+<Script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></Script>
+
+<Script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></Script>
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> 
+
+<Script src="/js/home.js"
+  strategy="beforeInteractive"
+></Script> */}
+>>>>>>> work
     
     <div className="loader1" ref={loader1Ref} style={{color:"white"}}>Empower</div>
     <div className="loader2" ref={loader2Ref} style={{color:"white"}}>Inform</div>
@@ -65,7 +86,11 @@ function Index({ser}) {
       </ul>
       </div>
     </div> */}
+<<<<<<< HEAD
 
+=======
+    <Header/>
+>>>>>>> work
     <div className="hero">
       <div className="three_title">
         <h1 className='hvr'>Grow &nbsp; &nbsp;</h1>

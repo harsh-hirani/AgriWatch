@@ -3,12 +3,19 @@ import Image from 'next/image'
 import Card from '../Card.js';
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> work
  const News=()=>{
     return(
         <>
         <div className="main">
+<<<<<<< HEAD
 
+=======
+        <Header/>
+>>>>>>> work
        <div className="news">
         <Card/>
         <Card/>
