@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Index from "@/components/pages/index";
 export default function Home() {
   const ser = async(data)=>{
