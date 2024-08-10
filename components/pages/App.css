@@ -1,13 +1,13 @@
 *{
   margin: 0;
+  overflow-x: hidden;
   padding: 0;
   box-sizing: border-box;
 
-  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   color: black;
   /* cursor: default; */
-
+  
 }
 html{
   font-size: 62.5%;
@@ -113,8 +113,8 @@ a{
   background:#F9FAFB;
 }
 /* .hero{
- 
-  /* background-color: red; *
+  
+/* background-color: red; *
 } */
 .three_title{
   height: 100vh;
@@ -187,8 +187,12 @@ a{
   margin-top: 3rem;
   /* margin-left: 1rem; */
   font-weight: 700;
+  height: 8rem;
+  /* background-color: red; */
+  
   font-size: 1.8rem;
   padding-left: 1rem;
+  padding-right: 2rem;
   margin-bottom: 2rem;
 }
 .newscard a{
@@ -196,17 +200,20 @@ a{
   /* margin-bottom: 2rem; */
   /* padding-bottom: 2rem; */
   font-size: 1.1rem;
+  margin-bottom: 2rem;
 
 }
 .newcard_detail{
   font-size: 1.2rem;
   padding-left: 1rem;
+  height: 7rem;
   text-align: justify;
   padding-right: 1rem;
   padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .price{
-  height: 20vh;
+  min-height: 50vh;
   width: 100vw;
   /* background-color: red; */
   padding-top: 3rem;
@@ -295,7 +302,6 @@ button:hover{
   min-height: 50vh;
   width: 90vw;
   /* margin: auto; */
-  
   gap: 8rem;
   /* margin-left: 15rem; */
   /* background-color: black; */
@@ -303,10 +309,21 @@ button:hover{
   flex-wrap: wrap;
   row-gap: 7rem;
   margin: auto;
-  margin-top: 10rem;
+  /* margin-top: 2rem; */
   padding-bottom: 3rem;
   /* margin-bottom: 3rem; */
+  margin-top: -2rem;
 }
 p{
   font-size: 1.2rem;
+}
+::-webkit-scrollbar-button{
+  width: 0;
+  height: 0;
+  
+}
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+
 }
