@@ -78,7 +78,7 @@ function Index({ser}) {
       </ul>
       </div>
     </div> */}
-    <Header/>
+    {/* <Header/> */}
     <div className="hero">
       <div className="three_title">
         <h1 className='hvr'>Grow &nbsp; &nbsp;</h1>

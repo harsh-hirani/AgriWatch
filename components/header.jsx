@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link';
+import "./pages/App.css"
 
 const Header=()=>{
     return(
@@ -19,10 +21,10 @@ const Header=()=>{
       <div className="options">
 
       <ul>
-        <li> <a href="">Home</a></li>
-        <li><a href="">See prices</a></li>
-        <li><a href="app\news_page.js">News</a></li>
-        <li><a href="">Help</a></li>
+        <li> <Link href="/">Home</Link></li>
+        <li><Link href="/cropprice">See prices</Link></li>
+        <li><Link href="/news">News</Link></li>
+        <li><Link href="">Help</Link></li>
       </ul>
       </div>
     </div>

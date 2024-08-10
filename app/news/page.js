@@ -1,4 +1,8 @@
-
+import News from "@/components/pages/news"
 export default function page(){
-    return <h1>news</h1>
+    return (
+    <>
+    <News/>
+    </>
+    )
 }

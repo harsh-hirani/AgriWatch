@@ -1,8 +1,8 @@
- import Header from "../header"
- const price=()=>{
+
+ const Price=()=>{
     return(
         <>
-        <Header/>
         </>
     )
  }
+ export default Price;
