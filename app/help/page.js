@@ -1,9 +1,9 @@
-import Price from "@/components/pages/price"
+import Help from "@/components/pages/help"
 export default function page(){
     return (
         <>
     
-        <Price/>
+       <Help/>
         </>
     )
 }

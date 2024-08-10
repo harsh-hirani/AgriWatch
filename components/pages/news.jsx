@@ -9,7 +9,7 @@ import Card from '../Card.js';
         <>
         <div className="main">
 
-        <Header/>
+    
        <div className="news">
         <Card/>
         <Card/>

@@ -1,19 +1,14 @@
-<<<<<<< HEAD
-
- const Price=()=>{
+'use client'
+import SearchComponent from "../searchcomponent";
+import React, { useState } from 'react';
+import Header from "../header"
+const Price=()=>{
     return(
         <>
+        <div className="main">
+       <SearchComponent/>
+        </div>
         </>
     )
- }
- export default Price;
-=======
- import Header from "../header"
- const price=()=>{
-    return(
-        <>
-        <Header/>
-        </>
-    )
- }
->>>>>>> f0fa1242aa6800707b67655432fdd93e46f77cdc
+}
+export default Price;
